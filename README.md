@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# reNFT Coding Tasks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Task 1 (Task A)
 
-## Available Scripts
+Developed `useSteps` hook, which is used to handle 4-step form.
+I made a really simple UI with basic CSS.
 
-In the project directory, you can run:
+When user changes value of the input, it gets stored in `useState` hook (form useState in TaskA.tsx line 77).
 
-### `npm start`
+Once user goes through the whole, form gets logged and provides an option to reset 4-step form.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Task 2 (Task B)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Finished `partition` function, which filters provided options array and seperate them into two arrays:
 
-### `npm test`
+1. Options, that match predicate function
+2. Options, that doesn't match predicate function
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Line 54 in TaskB.tsx file has a array `selectedValuesFromProps`. You can change, add or remove values and it will change the `partition` function result.
 
-### `npm run build`
+## Task 3 (Task C)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Finished `retryPromise` function, which runs the promise result. If the promise is successful, it checks promise value with predicate function and if it returns `true`, `retryPromise` returns promise value.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If the promise fails, it retries the promise as long as retries is not 0.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+(If I have misunderstood the assignment, I apologise. If I have to re-do the task, let me know!)
