@@ -24,4 +24,4 @@ Finished `retryPromise` function, which runs the promise result. If the promise 
 
 If the promise fails, it retries the promise as long as retries is not 0.
 
-(If I have misunderstood the assignment, I apologise. If I have to re-do the task, let me know!)
+(If I have misunderstood the assignment, let me know and I will re-do it! I apologise for that.)
