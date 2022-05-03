@@ -1,5 +1,7 @@
 # reNFT Coding Tasks
 
+All the tasks can be found in `src/tasks` folder.
+
 ## Task 1 (Task A)
 
 Developed `useSteps` hook, which is used to handle 4-step form.
